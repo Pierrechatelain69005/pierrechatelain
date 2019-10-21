@@ -1,0 +1,1008 @@
+{
+  "name": "Boutiques Starbucks",
+  "intents": [
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "Bonjour , c'est votre support informatique , qu'est ce que je peux faire pour vous ?"
+        },
+        {
+          "text": "Tu vas bien ?"
+        },
+        {
+          "text": "Salut, le conseiller !"
+        },
+        {
+          "text": "Bonjour, qui êtes-vous?"
+        },
+        {
+          "text": "Bonjour, quoi de neuf ?"
+        },
+        {
+          "text": "Commencez dès le début s'il vous plaît !"
+        },
+        {
+          "text": "Comment ça se passe aujourd'hui ?"
+        },
+        {
+          "text": "Comment ça va ce soir?"
+        },
+        {
+          "text": "Comment se passe votre journée ?"
+        },
+        {
+          "text": "Comment tu te sens?"
+        },
+        {
+          "text": "Comment va tout le monde ?"
+        },
+        {
+          "text": "Est-ce que les gens sont gentils avec vous?"
+        },
+        {
+          "text": "Est-ce que vous passez une bonne journée?"
+        },
+        {
+          "text": "J'aime parler. Toi aussi ?"
+        },
+        {
+          "text": "J'ai pensé que je pourrais juste te dire bonjour !"
+        },
+        {
+          "text": "Je suis heureux de te parler pour la première fois !"
+        },
+        {
+          "text": "Je voudrais commencer."
+        },
+        {
+          "text": "âllo, âllo !"
+        },
+        {
+          "text": "Puis-je te poser des questions?"
+        },
+        {
+          "text": "Allez, commençons !"
+        }
+      ],
+      "description": "Saluez le bot"
+    },
+    {
+      "intent": "General_Positive_Feedback",
+      "examples": [
+        {
+          "text": "Vous êtes formidable!"
+        },
+        {
+          "text": "Tu bosses bien!"
+        },
+        {
+          "text": "Je suis vraiment surpris par ton intelligence!"
+        },
+        {
+          "text": "Vous êtes vraiment utile."
+        },
+        {
+          "text": "Vous êtes un sympa!"
+        },
+        {
+          "text": "Vous êtes génial!"
+        },
+        {
+          "text": "Vous êtes formidable! Merci!"
+        },
+        {
+          "text": "Tu te débrouilles plutôt bien!"
+        },
+        {
+          "text": "Tu es vraiment cool!"
+        },
+        {
+          "text": "Tu es vachement cool!"
+        },
+        {
+          "text": "Tu es tellement amusant!"
+        },
+        {
+          "text": "Tu es si sage!"
+        },
+        {
+          "text": "Tu es si intelligent, c'est incroyable!"
+        },
+        {
+          "text": "Tu es plutôt intelligent!"
+        },
+        {
+          "text": "Tu es plutôt doué!"
+        },
+        {
+          "text": "Tu es le meilleur!"
+        },
+        {
+          "text": "Tu es gentil!"
+        },
+        {
+          "text": "Tu es drôle!"
+        },
+        {
+          "text": "Tu es bon!"
+        },
+        {
+          "text": "Tu es adorable!"
+        }
+      ],
+      "description": "Exprimer un sentiment positif ou de la gratitude"
+    },
+    {
+      "intent": "General_Connect_to_Agent",
+      "examples": [
+        {
+          "text": "Existe-t-il un numéro de service client qui je peux utiliser et parler à  un agent directement ?"
+        },
+        {
+          "text": "Bon, maintenant je veux parler à un agent à propos de certains frais."
+        },
+        {
+          "text": "Bonjour pourriez-vous me mettre en relation avec un agent en ligne?"
+        },
+        {
+          "text": "Y a-t-il un numéro que je peux composer et rejoindre une personne réelle qui peut m'aider?"
+        },
+        {
+          "text": "Veuillez me connecter à un gestionnaire."
+        },
+        {
+          "text": "Puis-je parler à un représentant du service humain maintenant ?"
+        },
+        {
+          "text": "Puis-je parler à un agent à propos de mon compte ?"
+        },
+        {
+          "text": "Pouvez-vous, s'il vous plaît, diriger mon appel vers un agent humain? Je voudrais parler directement avec un être humain."
+        },
+        {
+          "text": "Pouvez-vous me mettre en contact avec un agent, s'il vous plaît ? Ma conversation a été coupée."
+        },
+        {
+          "text": "Personne ne répond au téléphone !"
+        },
+        {
+          "text": "Laissez-moi parler à votre patron maintenant !"
+        },
+        {
+          "text": "Je voudrais parler avec un agent en direct, s'il vous plaît."
+        },
+        {
+          "text": "Je veux parler avec un représentant, s'il vous plaît."
+        },
+        {
+          "text": "Je veux parler au directeur ! Votre agent était inutile !"
+        },
+        {
+          "text": "Je souhaite parler à un agent humain du service client."
+        },
+        {
+          "text": "Je souhaite etre mis en relation avec un agent."
+        },
+        {
+          "text": "Je pense qu'il faut me connecter avec un opérateur."
+        },
+        {
+          "text": "Je dois parler à une personne réelle plutôt qu'un système de réponse automatisé, s'il vous plaît."
+        },
+        {
+          "text": "J'aimerais parler à un agent humain, s'il vous plaît."
+        },
+        {
+          "text": "Existe-t-il un numéro que je peux composer pour parler à opérateur en direct ?"
+        }
+      ],
+      "description": "Demander un agent humain"
+    },
+    {
+      "intent": "General_Human_or_Bot",
+      "examples": [
+        {
+          "text": "Comment pouvez-vous prouver que vous êtes un humain?"
+        },
+        {
+          "text": "Vous êtes quoi, un ordinateur?"
+        },
+        {
+          "text": "Êtes-vous un humain ou un robot?"
+        },
+        {
+          "text": "Êtes-vous un homme ou une femme?"
+        },
+        {
+          "text": "Êtes-vous réel?"
+        },
+        {
+          "text": "Qui es-tu vraiment?"
+        },
+        {
+          "text": "Pouvez-vous être honnête avec moi?"
+        },
+        {
+          "text": "Pouvez-vous me connecter à une personne en direct?"
+        },
+        {
+          "text": "Pourrai-je parler un être humain s'il vous plaît ?"
+        },
+        {
+          "text": "Je parle avec qui?"
+        },
+        {
+          "text": "Est-ce que t'es un ordinateur?"
+        },
+        {
+          "text": "Est-ce que je parle à Watson?"
+        },
+        {
+          "text": "Est-ce que je parle à une personne ou suis-je en train de parler à une IA?"
+        },
+        {
+          "text": "Est-ce que je parle à un Bot?"
+        },
+        {
+          "text": "Est-ce que je discute avec un humain?"
+        },
+        {
+          "text": "Dites-moi, êtes-vous un humain ou non?"
+        },
+        {
+          "text": "Dites-moi, qui êtes-vous?"
+        },
+        {
+          "text": "Dis-moi la vérité, qui est-ce que tu es?"
+        },
+        {
+          "text": "Connecte-moi avec une personne réelle."
+        },
+        {
+          "text": "Comment puis-je parler à Watson?"
+        }
+      ],
+      "description": "Demandez si vous parlez à un humain ou à un bot"
+    },
+    {
+      "intent": "General_Ending",
+      "examples": [
+        {
+          "text": "C'était sympa de bavarder avec toi!"
+        },
+        {
+          "text": "C'était un plaisir de chatter avec vous !"
+        },
+        {
+          "text": "D'accord merci. Au revoir!"
+        },
+        {
+          "text": "Donc, je vous remercie beaucoup de votre aide. Je vous souhaite une bonne journée !"
+        },
+        {
+          "text": "J'ai besoin d'une pause, au revoir !"
+        },
+        {
+          "text": "Je dois partir maintenant."
+        },
+        {
+          "text": "Je m'en vais maintenant."
+        },
+        {
+          "text": "Je n'ai plus de questions."
+        },
+        {
+          "text": "Je pars maintenant, à plus !"
+        },
+        {
+          "text": "Je rediscuterai avec vous plus tard."
+        },
+        {
+          "text": "Je vais te parler plus tard !"
+        },
+        {
+          "text": "Je vais vous reparler bientôt."
+        },
+        {
+          "text": "Je voudrais arrêter là."
+        },
+        {
+          "text": "Merci beaucoup, on se reparle plus tard."
+        },
+        {
+          "text": "Nous allos rediscuter bientôt."
+        },
+        {
+          "text": "Ok, c'est tout ce dont j'ai besoin pour l'instant."
+        },
+        {
+          "text": "OK, merci. Au revoir !"
+        },
+        {
+          "text": "Passe une bonne journée !"
+        },
+        {
+          "text": "Pouvons-nous arrêter ?"
+        },
+        {
+          "text": "C'est tout, merci."
+        }
+      ],
+      "description": "Terminez la conversation"
+    },
+    {
+      "intent": "General_Negative_Feedback",
+      "examples": [
+        {
+          "text": "Arrête de m'énerver!"
+        },
+        {
+          "text": "Ce n'est pas vrai!"
+        },
+        {
+          "text": "Connard!"
+        },
+        {
+          "text": "Espece de boîte de conserve!"
+        },
+        {
+          "text": "Idiot!"
+        },
+        {
+          "text": "Je veux parler à une de personne vivante!"
+        },
+        {
+          "text": "Programme stupide !"
+        },
+        {
+          "text": "Putain de robot!"
+        },
+        {
+          "text": "Tais-toi!"
+        },
+        {
+          "text": "T'es bizarre."
+        },
+        {
+          "text": "Tu es bête!"
+        },
+        {
+          "text": "Tu es chiant!"
+        },
+        {
+          "text": "Tu es inutile!"
+        },
+        {
+          "text": "Tu es nul."
+        },
+        {
+          "text": "Tu me fais chier!"
+        },
+        {
+          "text": "Tu me saoule!"
+        },
+        {
+          "text": "Tu m'énerves!"
+        },
+        {
+          "text": "Tu ne sais rien faire!"
+        },
+        {
+          "text": "Va te faire foutre!"
+        },
+        {
+          "text": "Je te déteste."
+        }
+      ],
+      "description": "Exprimer des commentaires défavorables"
+    },
+    {
+      "intent": "General_Jokes",
+      "examples": [
+        {
+          "text": "Peux-tu chanter pour moi?"
+        },
+        {
+          "text": "Aimes-tu raconter des blagues?"
+        },
+        {
+          "text": "Aimes-tu rigoler?"
+        },
+        {
+          "text": "Amuse-moi!"
+        },
+        {
+          "text": "Amusons-nous!"
+        },
+        {
+          "text": "Connaissez-vous des blagues?"
+        },
+        {
+          "text": "Connais-tu une blague?"
+        },
+        {
+          "text": "Connais-tu une bonne blague salace?"
+        },
+        {
+          "text": "Dis-moi quelque chose de drôle!"
+        },
+        {
+          "text": "Dis-moi une autre blague!"
+        },
+        {
+          "text": "Fais-moi rire!"
+        },
+        {
+          "text": "Peux-tu dire un truc drôle?"
+        },
+        {
+          "text": "Peux-tu raconter une blague?"
+        },
+        {
+          "text": "Pouvez-vous me dire une blague?"
+        },
+        {
+          "text": "Quelle blague tu peux me raconter ?"
+        },
+        {
+          "text": "Quelle est ta blague préférée?"
+        },
+        {
+          "text": "Que pouvez-vous faire d'autre pour m'amuser?"
+        },
+        {
+          "text": "Raconte moi une blague !"
+        },
+        {
+          "text": "Surprends-moi avec quelque chose de drôle !"
+        },
+        {
+          "text": "Tu connais des jeux?"
+        }
+      ],
+      "description": "Demander une blague"
+    },
+    {
+      "intent": "lieuxboutique",
+      "examples": [
+        {
+          "text": "où boire un café ?"
+        },
+        {
+          "text": "où puis-je trouver un starbucks ?"
+        },
+        {
+          "text": "est-ce qu'il y a une boutique à lyon ?"
+        },
+        {
+          "text": "où est le Starbucks le plus pres de chez moi"
+        },
+        {
+          "text": "quelle est l'adresse du starbucks le plus proche de chez moi ?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "carte",
+      "examples": [
+        {
+          "text": "quel est le menu ?"
+        },
+        {
+          "text": "que puis-je commander ?"
+        },
+        {
+          "text": "que boire comme café"
+        },
+        {
+          "text": "avez vous de la nourriture ?"
+        },
+        {
+          "text": "peut-on déjeuner ?"
+        },
+        {
+          "text": "quelles sont vos spécialités?"
+        },
+        {
+          "text": "peut on manger?"
+        },
+        {
+          "text": "avez-vous du thé?"
+        },
+        {
+          "text": "peut-on manger?"
+        },
+        {
+          "text": "quels cafés avez-vous ?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_About_You",
+      "examples": [
+        {
+          "text": "Avez vous un ou des surnoms?"
+        },
+        {
+          "text": "Êtes-vous un homme ou une femme ou un robot?"
+        },
+        {
+          "text": "Salut, parles-tu l'espagnol ?"
+        },
+        {
+          "text": "Qu'est-ce que tu n'aimes pas?"
+        },
+        {
+          "text": "Quels sont vos centres d'intérêt ?"
+        },
+        {
+          "text": "Quelle est la technologie utilisée par les agents virtuels ?"
+        },
+        {
+          "text": "Puis-je demander des conseils dans des questions juridiques ?"
+        },
+        {
+          "text": "Présentez-vous !"
+        },
+        {
+          "text": "Pouvez-vous offrir un support aux utilisateurs internes?"
+        },
+        {
+          "text": "Pouvez-vous me permettre de réserver ou commander des billets ?"
+        },
+        {
+          "text": "Pouvez-vous m'en dire plus sur vous?"
+        },
+        {
+          "text": "Les chatbots, que sont-ils exactement capables de faire ?"
+        },
+        {
+          "text": "Etes-vous adaptés pour le service et la relation client ?"
+        },
+        {
+          "text": "Es-tu intelligent ?"
+        },
+        {
+          "text": "Est-ce que l'agent virtuel est toujours disponible ?"
+        },
+        {
+          "text": "Depuis combien de temps effectuez-vous cette fonction?"
+        },
+        {
+          "text": "Avez-vous un nom de famille?"
+        },
+        {
+          "text": "Abus de chatbot, est-ce possible ?"
+        },
+        {
+          "text": "Écris-tu le portugais ?"
+        }
+      ],
+      "description": "Demander des attributs génériques personnels"
+    },
+    {
+      "intent": "General_Security_Assurance",
+      "examples": [],
+      "description": "Exprimer ses inquiétudes concernant la sécurité du bot"
+    },
+    {
+      "intent": "General_Agent_Capabilities",
+      "examples": [
+        {
+          "text": "Bonjour. Quelle sorte de choses pouvez-vous faire pour moi?"
+        },
+        {
+          "text": "Bonjour, pouvez-vous énumérer les domaines dans lequels vous pouvez fournir de l'aide?"
+        },
+        {
+          "text": "Avez-vous des limites ?"
+        },
+        {
+          "text": "Dans quelles autres questions pouvez-vous m'aider?"
+        },
+        {
+          "text": "Puis-je avoir une liste de sujets disponibles auxquels vous pouvez m'aider?"
+        },
+        {
+          "text": "Pouvez-vous lister les possibilités de la rubrique d'aide?"
+        },
+        {
+          "text": "Pourquoi est-ce qu'il n'y a pas d'option de fermer la session dans 'Agent Virtuel'?"
+        },
+        {
+          "text": "J'ai besoin de votre aide pour la création de l'agent virtuel."
+        },
+        {
+          "text": "Comment puis-je configurer mes préférences dans l'Agent Virtuel?"
+        },
+        {
+          "text": "Y a-t-il d'autre domaines avec lesquels aide l'Agent Virtuel?"
+        },
+        {
+          "text": "Avez-vous des capacités d'apprentissage ?"
+        },
+        {
+          "text": "Ai-je besoin de l'espace de travail du service de conversation pour ajouter une fonctionnalité personnalisée?"
+        },
+        {
+          "text": "Savez-vous faire la traduction ?"
+        },
+        {
+          "text": "Qu'est-ce que l'option Désactiver tout ?"
+        },
+        {
+          "text": "Quels sont les options que je peux avoir de plus en utlisant un agent virtuel ?"
+        },
+        {
+          "text": "Quelles sont les options avec lesquelles vous pouvez m'aider?"
+        },
+        {
+          "text": "Puis-je voir 4 questions les plus fréquentes?"
+        },
+        {
+          "text": "Puis-je utiliser la fenêtre de prévisualisation pour tester le déroulement de ma conversation ?"
+        },
+        {
+          "text": "Puis-je relier mon espace de travail avec un agent virtuel?"
+        },
+        {
+          "text": "Puis-je récupérer les interactions dans un agent virtuel ?"
+        }
+      ],
+      "description": "Demander des capacités du bot"
+    },
+    {
+      "intent": "horaires",
+      "examples": [
+        {
+          "text": "Quelles sont les horaires d'ouverture ?"
+        },
+        {
+          "text": "C'est ouvert aujourd'hui ?"
+        },
+        {
+          "text": "A quelle heure vous ouvrez ?"
+        },
+        {
+          "text": "A quel heure fermez-vous?"
+        },
+        {
+          "text": "Etes vous ouvert le week-end ?"
+        }
+      ],
+      "description": "Horaires d'ouverture"
+    }
+  ],
+  "entities": [
+    {
+      "entity": "nourriture",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Patisserie",
+          "synonyms": [
+            "brownie",
+            "cookies",
+            "banana bread"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Viennoiserie",
+          "synonyms": [
+            "Pancakes",
+            "croissant",
+            "pain au chocolat",
+            "cinnanmon rolls"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "boissons",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "café",
+          "synonyms": [
+            "Expresso",
+            "Latte",
+            "cappuccino",
+            "Mocha",
+            "Americano"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Boissons de saison",
+          "synonyms": [
+            "Café de saison ",
+            "spécialités"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Boissons glacées",
+          "synonyms": [
+            "Frappuccino",
+            "café glacé"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Chocolat",
+          "synonyms": [
+            "chocolat chaud ",
+            "chocolat viennois"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "thés",
+          "synonyms": [
+            "thés chaud",
+            "thés au lait"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "language": "fr",
+  "metadata": {
+    "api_version": {
+      "major_version": "v1",
+      "minor_version": "2018-07-10"
+    }
+  },
+  "skill_id": "54ab420e-f8db-447c-a5f3-918659c8cd58",
+  "description": "Tout savoir sur les boutiques starbucks à lyon",
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Carte des Boissons",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Voici les boissons que nous proposons : https://www.starbucks.fr/liste-de-menu/liste-boissons"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Bienvenue",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Bienvenue"
+      },
+      "conditions": "#carte &&      @boissons && café",
+      "dialog_node": "node_8_1570377121308",
+      "previous_sibling": "node_10_1570377473567"
+    },
+    {
+      "type": "standard",
+      "title": "horaires",
+      "output": {
+        "generic": [
+          {
+            "title": "",
+            "options": [],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "Bienvenue",
+      "conditions": " #horaires",
+      "dialog_node": "node_10_1570377473567",
+      "previous_sibling": "node_9_1570377362694"
+    },
+    {
+      "type": "standard",
+      "title": "Nourriture",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Voici la carte des plats sucrés et salés : https://www.starbucks.fr/liste-de-menu/liste-nourriture"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Bienvenue",
+      "conditions": "#carte && @nourriture",
+      "dialog_node": "node_9_1570377362694"
+    },
+    {
+      "type": "standard",
+      "title": "horaires",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Nous sommes ouvert tout les jours de la semaine : \nlundi\t07:00–20:30\nmardi\t07:00–20:30\nmercredi\t07:00–20:30\njeudi\t07:00–20:30\nvendredi\t07:00–20:30\nsamedi\t08:00–20:30\ndimanche\t08:00–20:30\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_3_1571658888528"
+      },
+      "conditions": "#horaires",
+      "dialog_node": "node_5_1571659093382",
+      "previous_sibling": "node_4_1571659005163"
+    },
+    {
+      "type": "standard",
+      "title": "Bienvenue",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Bonjour, comment puis-je vous aider ?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Bienvenue",
+      "previous_sibling": "node_10_1571659454539"
+    },
+    {
+      "type": "standard",
+      "title": "Avez-vous d'autres questions? ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Avez-vous d'autres questions ? "
+              },
+              {
+                "text": "Comment puis-je vous aider ? "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "dialog_node": "node_3_1571658888528",
+      "previous_sibling": "Bienvenue"
+    },
+    {
+      "type": "standard",
+      "title": "Tout le reste",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Je n'ai pas compris. Vous pouvez essayer de reformuler."
+              },
+              {
+                "text": "Pouvez-vous dire cela autrement ? Je ne comprends pas."
+              },
+              {
+                "text": "Je n'ai pas compris ce que vous voulez dire."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Tout le reste",
+      "previous_sibling": "node_2_1571658703020"
+    },
+    {
+      "type": "standard",
+      "title": "Carte du restaurant",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Voici la carte : https://www.starbucks.fr/liste-de-menu"
+              },
+              {
+                "text": "Cliquez sur le lien pour voir le menu : https://www.starbucks.fr/liste-de-menu"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_3_1571658888528"
+      },
+      "conditions": "#carte",
+      "dialog_node": "node_2_1571658703020",
+      "previous_sibling": "node_5_1571659093382"
+    },
+    {
+      "type": "standard",
+      "title": "boissons",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Nous proposons une variété de boissons de saison. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_3_1571658888528"
+      },
+      "conditions": "@boissons && #carte",
+      "dialog_node": "node_4_1571659005163",
+      "previous_sibling": "node_3_1571658888528"
+    },
+    {
+      "type": "standard",
+      "title": "lieux",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "La boutique la plus proche est située au : \n 2 Rue de la République, 69001 Lyon"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_3_1571658888528"
+      },
+      "conditions": "#lieuxboutique",
+      "dialog_node": "node_10_1571659454539"
+    }
+  ],
+  "workspace_id": "54ab420e-f8db-447c-a5f3-918659c8cd58",
+  "counterexamples": [],
+  "system_settings": {
+    "tooling": {
+      "store_generic_responses": true
+    }
+  },
+  "learning_opt_out": false,
+  "status": "Available"
+}
